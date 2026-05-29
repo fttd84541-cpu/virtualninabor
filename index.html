@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Policie ČR | Náborové centrum</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="nav">
+  <div class="logo">POLICIE ČESKÉ REPUBLIKY</div>
+
+  <div class="menu">
+    <a href="#utvary">Útvary</a>
+    <a href="#nina">Nina AI</a>
+    <a href="#nabor">Nábor</a>
+    <a href="#kodex">Kodex</a>
+    <a href="#vedeni">Vedení</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <h1>POLICIE ČESKÉ REPUBLIKY</h1>
+    <h2>NÁBOROVÉ CENTRUM</h2>
+    <a class="btn-yellow" href="#nabor">PODAT PŘIHLÁŠKU</a>
+  </div>
+</section>
+
+<!-- ÚTVARY -->
+<section class="section" id="utvary">
+  <h2>Útvary</h2>
+
+  <div class="grid">
+    <div class="card"><img src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9"><h3>Pořádková policie</h3></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1601987077677-5346c3a9a7b0"><h3>Dopravní policie</h3></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0"><h3>Kriminální policie</h3></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1606761568499-6d2451a7c0a2"><h3>Cizinecká policie</h3></div>
+  </div>
+</section>
+
+<!-- NINA -->
+<section class="section dark" id="nina">
+  <h2>VIRTUÁLNÍ ASISTENTKA NINA</h2>
+
+  <div class="ai-box">
+    <div id="chat">
+      <div class="msg bot">
+        Ahoj 🙂 jsem Nina, virtuální asistent Policie ČR.
+      </div>
+    </div>
+
+    <input id="userInput" placeholder="Napište dotaz..." />
+    <button onclick="sendMsg()">Odeslat</button>
+  </div>
+</section>
+
+<!-- NÁBOR -->
+<section class="section" id="nabor">
+  <h2>NÁBOR</h2>
+
+  <form>
+    <input placeholder="Jméno a příjmení" required>
+    <input placeholder="Discord jméno" required>
+    <input placeholder="Kontakt" required>
+    <button>ODESLAT</button>
+  </form>
+</section>
+
+<!-- KODEX -->
+<section class="section" id="kodex">
+  <h2>KODEX</h2>
+
+  <div class="list">
+    <div>✔ Profesionalita</div>
+    <div>✔ Zákonnost</div>
+    <div>✔ Respekt</div>
+    <div>✔ Disciplína</div>
+  </div>
+</section>
+
+<!-- VEDENÍ -->
+<section class="section" id="vedeni">
+  <h2>VEDENÍ POLICIE</h2>
+
+  <div class="grid">
+
+    <div class="contact">
+      <h3>Krajský ředitel</h3>
+      <p>JUDr. Alex Mokrý, PhD.</p>
+    </div>
+
+    <div class="contact">
+      <h3>Velitel sboru</h3>
+      <p>Bc. Richard Hýi</p>
+    </div>
+
+    <div class="contact">
+      <h3>Velitel stanice</h3>
+      <p>JUDr. MUDr. Adrian Cortéz, PhD.</p>
+    </div>
+
+    <div class="contact">
+      <h3>Personální oddělení</h3>
+      <p>JUDr. Jakub Stehno, PhD.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © Policie ČR | RP Náborový web
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
